@@ -16,23 +16,19 @@ Our implementation is built on PyTroch (version 1.11.0) and python 3.9.
 </ol> 
 
 ### First argument : train. 
-Weights of our networks are provided in the repository. You can choose to use pretrained network to reproduce results by lanching: <br>
-`python main.py`<br>
-or to retrain networks by lanching: <br>
-`python main.py -train true` <br>
+> Weights of our networks are provided in the repository. You can choose to use pretrained network to reproduce results by lanching: <br>
+> `python main.py`<br>
+> or to retrain networks by lanching: <br>
+> `python main.py -train true` <br>
 
 ### Second argument : exp. 
-You can change multiple parameters by creating new configuration files in the 'code/Todo_list' folder. Four configuration files are provided: <br>
-- **Todo_List/default.yaml** <br>  
-        By default, it will run the AESc network trained with our Stain noise model over the entire dataset: <br>
-        `python main.py`
-- **Todo_List/AE_STAIN.yaml** <br>
-        It will run the AE network trained with our Stain noise model over the entire dataset: <br>
-        `python main.py -exp AE_STAIN `
-- **Todo_List/AESc_noDataAugmentation.yaml** <br>
-        It will run the AESc network trained without data augmentation over the entire dataset: <br>
-        `python main.py -exp AE_STAIN `
-- **Todo_List/AE_noDataAugmentation.yaml** <br>
-        It will run the AE network trained without data augmentation over the entire dataset: <br>
-        `python main.py -exp AE_STAIN `
+> You can change multiple parameters by creating new configuration files in the 'code/Todo_list' folder. Four configuration files are provided: <br>
+> - **Todo_List/default.yaml** By default, it will run the AESc network trained with our Stain noise model over the entire dataset: <br>
+>        `python main.py`
+> - **Todo_List/AE_STAIN.yaml** It will run the AE network trained with our Stain noise model over the entire dataset: <br>
+>         `python main.py -exp AE_STAIN `
+> - **Todo_List/AESc_noDataAugmentation.yaml** It will run the AESc network trained without data augmentation over the entire dataset: <br>
+>         `python main.py -exp AE_STAIN `
+> - **Todo_List/AE_noDataAugmentation.yaml** It will run the AE network trained without data augmentation over the entire dataset: <br>
+>        `python main.py -exp AE_STAIN `
 
