@@ -15,7 +15,7 @@ Our implementation is built on PyTroch (version 1.11.0) and python 3.9.
   <li>Copy the absolute path to the MVTec AD dataset folder in the 'code/configs/server/datasetLocation.yaml' file.</li>
 </ol> 
 
-### Two arguments: train and exp. 
+> ### Two arguments: train and exp. 
 > **First argument : train.**
 > Weights of our networks are provided in the repository. You can choose to use pretrained network to reproduce results by lanching: <br>
 > `python main.py`<br>
