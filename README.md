@@ -11,7 +11,7 @@ Our implementation is built on PyTroch (version 1.11.0) and python 3.9.
 ## How to use the code?
 <ol>
   <li>Clone the repository and activate a compatible python environmnent. </li>
-  <li>Download the MVTec AD dataset from their <a href="https://www.mvtec.com/company/research/datasets/mvtec-ad"> Website. </a> </li> Unzip it in the location of your choice.
+  <li>Download the MVTec AD dataset from the official <a href="https://www.mvtec.com/company/research/datasets/mvtec-ad"> Website. </a> </li> Unzip it in the location of your choice.
   <li>Copy the absolute path to the MVTec AD dataset folder in the 'code/configs/server/datasetLocation.yaml' file.</li>
 </ol> 
 
